@@ -1,0 +1,1 @@
+web: knex migrate:down && knex migrate:up && node index.js
