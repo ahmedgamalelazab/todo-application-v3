@@ -4,10 +4,10 @@ module.exports = {
   development: {
     client: "postgresql",
     connection: {
-      host: "localhost",
+      host: "",
       database: "todoapp",
       user: "postgres",
-      password: "root",
+      password: "",
     },
     migrations: {
       directory: "./src/database",
